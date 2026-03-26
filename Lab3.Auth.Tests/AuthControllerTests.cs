@@ -16,8 +16,15 @@ public class AuthControllerTests : IClassFixture<WebApplicationFactory<Program>>
     public AuthControllerTests(WebApplicationFactory<Program> factory)
     {
         var app = factory.WithWebHostBuilder(builder =>
+        {
+            // Указываем использовать папку, где запущено приложение
+            builder.UseContentRoot(Directory.GetCurrentDirectory());
+
             builder.ConfigureServices(services =>
-                services.AddSingleton<IAuthService, AuthService>()));
+            {
+                services.AddSingleton<IAuthService, AuthService>();
+            });
+        });
 
         _client = app.CreateClient();
         _auth = app.Services.GetRequiredService<IAuthService>();
