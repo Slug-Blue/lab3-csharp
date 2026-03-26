@@ -5,6 +5,7 @@ using Lab3.Auth.Services;
 using Microsoft.AspNetCore.Mvc.Testing;
 using Microsoft.Extensions.DependencyInjection;
 using Xunit;
+using Microsoft.AspNetCore.Hosting;
 
 namespace Lab3.Auth.Tests;
 
