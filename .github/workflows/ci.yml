@@ -28,13 +28,13 @@ jobs:
         run: dotnet build --no-restore --configuration Release
 
       - name: Run tests with coverage
-        run:
-          dotnet test Lab3.Auth.Tests/Lab3.Auth.Tests.csproj \
-          --configuration Release \
-          --no-build \
-          --collect:"XPlat Code Coverage" \
-          --results-directory ./coverage-results \
-          -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura
+        run: >
+          dotnet test Lab3.Auth.Tests/Lab3.Auth.Tests.csproj
+          --configuration Release
+          --no-build
+          --collect:"XPlat Code Coverage"
+          --results-directory ./coverage-results
+          --DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=cobertura
 
       - name: SonarQube Analysis
         uses: SonarSource/sonarqube-scan-action@master
