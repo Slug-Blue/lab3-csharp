@@ -1,0 +1,7 @@
+a
+VC:\Users\user\Desktop\lab3-csharp\Lab3.Auth\obj\Debug\net9.0\Lab3.Auth.AssemblyInfo.csutf-8c
+XC:\Users\user\Desktop\lab3-csharp\Lab3.Auth\obj\Debug\net9.0\Lab3.Auth.GlobalUsings.g.csutf-8S
+CC:\Users\user\Desktop\lab3-csharp\Lab3.Auth\Services\AuthService.cswindows-1251F
+6C:\Users\user\Desktop\lab3-csharp\Lab3.Auth\Program.cswindows-1251v
+kC:\Users\user\Desktop\lab3-csharp\Lab3.Auth\obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.csutf-8R
+IC:\Users\user\Desktop\lab3-csharp\Lab3.Auth\Controllers\AuthController.csutf-8

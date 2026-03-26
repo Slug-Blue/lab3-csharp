@@ -1,0 +1,144 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "11.2"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1774546202000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "lab3-csharp"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "C:\\Users\\user\\Desktop\\lab3-csharp\\.sonarqube\\out\\.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "C:\\Users\\user\\Desktop\\lab3-csharp"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "C:\\Users\\user\\Desktop\\lab3-csharp"
+    },
+    {
+      "key": "sonar.sources",
+      "value": "C:\\Users\\user\\Desktop\\lab3-csharp\\.vs\\ProjectSettings.json,C:\\Users\\user\\Desktop\\lab3-csharp\\.vs\\VSWorkspaceState.json,C:\\Users\\user\\Desktop\\lab3-csharp\\.github\\workflows\\ci.yml,C:\\Users\\user\\Desktop\\lab3-csharp\\.vs\\lab3-csharp\\v17\\DocumentLayout.json"
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "6520AF46-BAF6-4BA3-A812-AB860A784AAC,4AB90D16-BFFF-4C09-8AEA-1E922BB724F6"
+    },
+    {
+      "key": "6520AF46-BAF6-4BA3-A812-AB860A784AAC.sonar.projectKey",
+      "value": "lab3-csharp:6520AF46-BAF6-4BA3-A812-AB860A784AAC"
+    },
+    {
+      "key": "6520AF46-BAF6-4BA3-A812-AB860A784AAC.sonar.projectName",
+      "value": "Lab3.Auth"
+    },
+    {
+      "key": "6520AF46-BAF6-4BA3-A812-AB860A784AAC.sonar.projectBaseDir",
+      "value": "C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth"
+    },
+    {
+      "key": "6520AF46-BAF6-4BA3-A812-AB860A784AAC.sonar.working.directory",
+      "value": "C:\\Users\\user\\Desktop\\lab3-csharp\\.sonarqube\\out\\.sonar\\mod0"
+    },
+    {
+      "key": "6520AF46-BAF6-4BA3-A812-AB860A784AAC.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "6520AF46-BAF6-4BA3-A812-AB860A784AAC.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "6520AF46-BAF6-4BA3-A812-AB860A784AAC.sonar.sources",
+      "value": "C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\Controllers\\AuthController.cs,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\Program.cs,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\Services\\AuthService.cs,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\obj\\Debug\\net9.0\\Lab3.Auth.GlobalUsings.g.cs,\"C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\obj\\Debug\\net9.0\\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs\",C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\obj\\Debug\\net9.0\\Lab3.Auth.AssemblyInfo.cs,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\appsettings.Development.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\appsettings.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\Lab3.Auth.http,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\Properties\\launchSettings.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\obj\\Lab3.Auth.csproj.nuget.dgspec.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\obj\\project.assets.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\bin\\Debug\\net9.0\\appsettings.Development.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\bin\\Debug\\net9.0\\appsettings.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\bin\\Debug\\net9.0\\Lab3.Auth.deps.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\bin\\Debug\\net9.0\\Lab3.Auth.runtimeconfig.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\bin\\Debug\\net9.0\\Lab3.Auth.staticwebassets.endpoints.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\obj\\Debug\\net9.0\\Lab3.Auth.sourcelink.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\obj\\Debug\\net9.0\\rjsmcshtml.dswa.cache.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\obj\\Debug\\net9.0\\rjsmrazor.dswa.cache.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\obj\\Debug\\net9.0\\rpswa.dswa.cache.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\obj\\Debug\\net9.0\\staticwebassets.build.endpoints.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth\\obj\\Debug\\net9.0\\staticwebassets.build.json"
+    },
+    {
+      "key": "6520AF46-BAF6-4BA3-A812-AB860A784AAC.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\user\\Desktop\\lab3-csharp\\.sonarqube\\out\\0,C:\\Users\\user\\Desktop\\lab3-csharp\\.sonarqube\\out\\2"
+    },
+    {
+      "key": "6520AF46-BAF6-4BA3-A812-AB860A784AAC.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\user\\Desktop\\lab3-csharp\\.sonarqube\\out\\0\\Issues.json,C:\\Users\\user\\Desktop\\lab3-csharp\\.sonarqube\\out\\2\\Issues.json"
+    },
+    {
+      "key": "6520AF46-BAF6-4BA3-A812-AB860A784AAC.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\user\\Desktop\\lab3-csharp\\.sonarqube\\out\\0\\Telemetry.json,C:\\Users\\user\\Desktop\\lab3-csharp\\.sonarqube\\out\\2\\Telemetry.json"
+    },
+    {
+      "key": "4AB90D16-BFFF-4C09-8AEA-1E922BB724F6.sonar.projectKey",
+      "value": "lab3-csharp:4AB90D16-BFFF-4C09-8AEA-1E922BB724F6"
+    },
+    {
+      "key": "4AB90D16-BFFF-4C09-8AEA-1E922BB724F6.sonar.projectName",
+      "value": "Lab3.Auth.Tests"
+    },
+    {
+      "key": "4AB90D16-BFFF-4C09-8AEA-1E922BB724F6.sonar.projectBaseDir",
+      "value": "C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests"
+    },
+    {
+      "key": "4AB90D16-BFFF-4C09-8AEA-1E922BB724F6.sonar.working.directory",
+      "value": "C:\\Users\\user\\Desktop\\lab3-csharp\\.sonarqube\\out\\.sonar\\mod1"
+    },
+    {
+      "key": "4AB90D16-BFFF-4C09-8AEA-1E922BB724F6.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "4AB90D16-BFFF-4C09-8AEA-1E922BB724F6.sonar.sources",
+      "value": ""
+    },
+    {
+      "key": "4AB90D16-BFFF-4C09-8AEA-1E922BB724F6.sonar.tests",
+      "value": "C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\.vs\\ProjectSettings.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\.vs\\VSWorkspaceState.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\obj\\Lab3.Auth.Tests.csproj.nuget.dgspec.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\obj\\project.assets.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\.vs\\Lab3.Auth.Tests\\v17\\DocumentLayout.backup.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\.vs\\Lab3.Auth.Tests\\v17\\DocumentLayout.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\bin\\Debug\\net9.0\\appsettings.Development.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\bin\\Debug\\net9.0\\appsettings.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\bin\\Debug\\net9.0\\Lab3.Auth.deps.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\bin\\Debug\\net9.0\\Lab3.Auth.runtimeconfig.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\bin\\Debug\\net9.0\\Lab3.Auth.staticwebassets.endpoints.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\bin\\Debug\\net9.0\\Lab3.Auth.Tests.deps.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\bin\\Debug\\net9.0\\Lab3.Auth.Tests.runtimeconfig.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\bin\\Debug\\net9.0\\MvcTestingAppManifest.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\obj\\Debug\\net9.0\\Lab3.Auth.Tests.sourcelink.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\obj\\Debug\\net9.0\\MvcTestingAppManifest.json,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\AuthControllerTests.cs,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\AuthServiceTests.cs,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\UnitTest1.cs,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\coverage-results\\8da0776b-7d0b-46aa-98a8-992bdcaa0425\\coverage.cobertura.xml,C:\\Users\\user\\Desktop\\lab3-csharp\\Lab3.Auth.Tests\\coverage-results\\d523fcdb-0fb9-4938-b74b-fa000d0688d4\\coverage.cobertura.xml"
+    },
+    {
+      "key": "4AB90D16-BFFF-4C09-8AEA-1E922BB724F6.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\user\\Desktop\\lab3-csharp\\.sonarqube\\out\\1,C:\\Users\\user\\Desktop\\lab3-csharp\\.sonarqube\\out\\3"
+    },
+    {
+      "key": "4AB90D16-BFFF-4C09-8AEA-1E922BB724F6.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\user\\Desktop\\lab3-csharp\\.sonarqube\\out\\1\\Issues.json,C:\\Users\\user\\Desktop\\lab3-csharp\\.sonarqube\\out\\3\\Issues.json"
+    },
+    {
+      "key": "4AB90D16-BFFF-4C09-8AEA-1E922BB724F6.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\user\\Desktop\\lab3-csharp\\.sonarqube\\out\\1\\Telemetry.json,C:\\Users\\user\\Desktop\\lab3-csharp\\.sonarqube\\out\\3\\Telemetry.json"
+    },
+    {
+      "key": "sonar.token",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "http://localhost:9000"
+    },
+    {
+      "key": "sonar.cs.opencover.reportsPaths",
+      "value": "coverage-results/**/coverage.cobertura.xml"
+    },
+    {
+      "key": "sonar.exclusions",
+      "value": "coverage-results/**/coverage.cobertura.xml"
+    },
+    {
+      "key": "sonar.visualstudio.enable",
+      "value": "false"
+    }
+  ]
+}

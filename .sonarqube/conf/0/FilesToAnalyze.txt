@@ -1,0 +1,10 @@
+﻿C:\Users\user\Desktop\lab3-csharp\Lab3.Auth\Controllers\AuthController.cs
+C:\Users\user\Desktop\lab3-csharp\Lab3.Auth\Program.cs
+C:\Users\user\Desktop\lab3-csharp\Lab3.Auth\Services\AuthService.cs
+C:\Users\user\Desktop\lab3-csharp\Lab3.Auth\obj\Debug\net9.0\Lab3.Auth.GlobalUsings.g.cs
+C:\Users\user\Desktop\lab3-csharp\Lab3.Auth\obj\Debug\net9.0\.NETCoreApp,Version=v9.0.AssemblyAttributes.cs
+C:\Users\user\Desktop\lab3-csharp\Lab3.Auth\obj\Debug\net9.0\Lab3.Auth.AssemblyInfo.cs
+C:\Users\user\Desktop\lab3-csharp\Lab3.Auth\appsettings.Development.json
+C:\Users\user\Desktop\lab3-csharp\Lab3.Auth\appsettings.json
+C:\Users\user\Desktop\lab3-csharp\Lab3.Auth\Lab3.Auth.http
+C:\Users\user\Desktop\lab3-csharp\Lab3.Auth\Properties\launchSettings.json

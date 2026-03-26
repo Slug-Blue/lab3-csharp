@@ -1,0 +1,150 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Компилятор Microsoft (R) Visual C#",
+        "version": "4.14.0.0",
+        "fileVersion": "4.14.0-3.25262.10 (8edf7bcd)",
+        "semanticVersion": "4.14.0",
+        "language": "ru-RU"
+      },
+      "results": [
+        {
+          "ruleId": "S2699",
+          "level": "warning",
+          "message": "Add at least one assertion to this test case.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/user/Desktop/lab3-csharp/Lab3.Auth.Tests/UnitTest1.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 17,
+                  "endLine": 6,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1816",
+          "level": "note",
+          "message": "Замените AuthServiceTests.Dispose() вызовом GC.SuppressFinalize(object). В результате для производных типов, использующих метод завершения, отпадет необходимость в повторной реализации \"IDisposable\" для вызова этого метода.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/user/Desktop/lab3-csharp/Lab3.Auth.Tests/AuthServiceTests.cs",
+                "region": {
+                  "startLine": 12,
+                  "startColumn": 17,
+                  "endLine": 12,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1816",
+          "level": "note",
+          "message": "Замените AuthControllerTests.Dispose() вызовом GC.SuppressFinalize(object). В результате для производных типов, использующих метод завершения, отпадет необходимость в повторной реализации \"IDisposable\" для вызова этого метода.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/user/Desktop/lab3-csharp/Lab3.Auth.Tests/AuthControllerTests.cs",
+                "region": {
+                  "startLine": 26,
+                  "startColumn": 17,
+                  "endLine": 26,
+                  "endColumn": 24
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1859",
+          "level": "note",
+          "message": "Измените тип поля \"_svc\" с \"Lab3.Auth.Services.IAuthService\" на \"Lab3.Auth.Services.AuthService\" для повышения производительности",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/user/Desktop/lab3-csharp/Lab3.Auth.Tests/AuthServiceTests.cs",
+                "region": {
+                  "startLine": 9,
+                  "startColumn": 35,
+                  "endLine": 9,
+                  "endColumn": 39
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1816": {
+          "id": "CA1816",
+          "shortDescription": "Методы Dispose должны вызывать SuppressFinalize",
+          "fullDescription": "Метод, являющийся реализацией Dispose, не вызывает GC.SuppressFinalize, метод, не являющийся реализацией Dispose, вызывает GC.SuppressFinalize, либо метод вызывает GC.SuppressFinalize и передает нечто иное (Me в Visual Basic).",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1816",
+          "properties": {
+            "category": "Usage",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CA1859": {
+          "id": "CA1859",
+          "shortDescription": "Используйте конкретные типы, когда это возможно, для повышения производительности",
+          "fullDescription": "Использование конкретных типов позволяет избежать потребления ресурсов на виртуальные вызовы и вызовы интерфейса и включить встраивание.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1859",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "S2699": {
+          "id": "S2699",
+          "shortDescription": "Tests should include assertions",
+          "fullDescription": "The rule targets test methods that lack an assertion and consist solely of an action and, optionally, a setup.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2699",
+          "properties": {
+            "category": "Blocker Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "TestSourceScope",
+              "SonarWay"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

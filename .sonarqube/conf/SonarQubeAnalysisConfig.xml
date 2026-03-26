@@ -12,7 +12,7 @@
   <HasBeginStepCommandLineTruststorePassword>false</HasBeginStepCommandLineTruststorePassword>
   <SonarQubeHostUrl>http://localhost:9000</SonarQubeHostUrl>
   <SonarQubeVersion>26.3.0.120487</SonarQubeVersion>
-  <SonarProjectKey>Sing_up_Football_Club</SonarProjectKey>
+  <SonarProjectKey>lab3-csharp</SonarProjectKey>
   <AdditionalConfig>
     <ConfigSetting Id="BuildUri" />
     <ConfigSetting Id="TfsUri" />
@@ -155,6 +155,8 @@
   </ServerSettings>
   <LocalSettings>
     <Property Name="sonar.host.url">http://localhost:9000</Property>
+    <Property Name="sonar.cs.opencover.reportsPaths">coverage-results/**/coverage.cobertura.xml</Property>
+    <Property Name="sonar.exclusions">coverage-results/**/coverage.cobertura.xml</Property>
   </LocalSettings>
   <ScannerOptsSettings />
   <AnalyzersSettings>

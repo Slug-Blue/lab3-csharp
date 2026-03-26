@@ -1,0 +1,11 @@
+﻿C:\Users\user\Desktop\lab3-csharp\Lab3.Auth.Tests\AuthControllerTests.cs
+C:\Users\user\Desktop\lab3-csharp\Lab3.Auth.Tests\AuthServiceTests.cs
+C:\Users\user\Desktop\lab3-csharp\Lab3.Auth.Tests\UnitTest1.cs
+C:\Users\user\.nuget\packages\microsoft.net.test.sdk\17.12.0\build\netcoreapp3.1\Microsoft.NET.Test.Sdk.Program.cs
+C:\Users\user\.nuget\packages\microsoft.testplatform.testhost\17.12.0\build\netcoreapp3.1\x64\testhost.exe
+C:\Users\user\.nuget\packages\microsoft.testplatform.testhost\17.12.0\build\netcoreapp3.1\x64\testhost.dll
+C:\Users\user\.nuget\packages\xunit.runner.visualstudio\2.8.2\build\net6.0\xunit.runner.visualstudio.testadapter.dll
+C:\Users\user\.nuget\packages\xunit.runner.visualstudio\2.8.2\build\net6.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\user\.nuget\packages\xunit.runner.visualstudio\2.8.2\build\net6.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\user\Desktop\lab3-csharp\Lab3.Auth.Tests\coverage-results\8da0776b-7d0b-46aa-98a8-992bdcaa0425\coverage.cobertura.xml
+C:\Users\user\Desktop\lab3-csharp\Lab3.Auth.Tests\coverage-results\d523fcdb-0fb9-4938-b74b-fa000d0688d4\coverage.cobertura.xml
