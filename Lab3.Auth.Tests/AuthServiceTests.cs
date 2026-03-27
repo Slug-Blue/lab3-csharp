@@ -26,7 +26,7 @@ public class AuthServiceTests : IDisposable
         _svc.Register("alice", "secret123");
         var result = _svc.Register("alice", "other123");
         Assert.False(result.Success);
-        Assert.Contains("уже существует", result.Message);
+        Assert.Equal(AuthErrorCode.UserAlreadyExists, result.ErrorCode); ;
     }
 
     [Fact]
@@ -98,7 +98,7 @@ public class AuthServiceTests : IDisposable
         _svc.Register("carol", "oldpass123");
         var result = _svc.ChangePassword("carol", "oldpass123", "oldpass123");
         Assert.False(result.Success);
-        Assert.Contains("совпадает", result.Message);
+        Assert.Equal(AuthErrorCode.PasswordsDoNotMatch, result.ErrorCode); ;
     }
 
     [Fact]
