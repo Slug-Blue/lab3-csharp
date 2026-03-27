@@ -28,8 +28,7 @@ jobs:
         run: dotnet build --no-restore --configuration Release
 
       - name: Run tests with coverage
-        run: >
-          dotnet test Lab3.Auth.Tests/Lab3.Auth.Tests.csproj
+        run: dotnet test Lab3.Auth.Tests/Lab3.Auth.Tests.csproj --configuration Release --no-build --collect:"XPlat Code Coverage" --results-directory ./coverage-results
           --configuration Release
           --no-build
           --collect:"XPlat Code Coverage"
